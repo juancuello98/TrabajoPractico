@@ -1,3 +1,5 @@
+
+
 .poppins {
     font-family: 'Poppins', sans-serif;
 }
@@ -51,7 +53,32 @@ mark{
 
 .bg-image-galery{
     height: 40rem;
+    max-width: 100%;
     background-image: url(https://cdna.artstation.com/p/assets/images/images/006/122/970/original/ahmed-adel-world.gif?1496198125);
     background-attachment: fixed;
     background-size: cover;
+}
+
+@media screen and (max-width:400px){
+    .bg-image{
+        height: 50rem;
+        max-width: 100%;
+        background-image: url(./imagenes/valija-amarilla-responsive.jpg);
+        background-size: 90%;
+    }
+    .bg-image-galery{
+        height: 50rem;
+        max-width: 100%;
+    }
+    .card-img{
+        height: 20rem;
+    }
+    .texto-en-medio{
+        top:-0.5rem;
+    }
+}
+
+.position-simulator{
+    height: 100%;
+    width: 100%;
 }
